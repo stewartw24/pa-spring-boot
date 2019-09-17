@@ -1,0 +1,8 @@
+dependencies;
+devtools
+h2
+jpa
+mysql
+Thymeleaf
+web
+lombok
