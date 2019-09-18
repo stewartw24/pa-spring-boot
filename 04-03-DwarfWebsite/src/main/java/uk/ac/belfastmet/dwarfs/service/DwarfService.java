@@ -31,6 +31,20 @@ public class DwarfService {
 			
 			this.tolkenDwarfs = new ArrayList<Dwarf>();
 			
+			this.tolkenDwarfs.add(new Dwarf("Balin", "Tolken", "Balin.png"));
+			this.tolkenDwarfs.add(new Dwarf("Bifur", "Tolken", "Bifur.png"));
+			this.tolkenDwarfs.add(new Dwarf("Bofur", "Tolken", "Bofur.png"));
+			this.tolkenDwarfs.add(new Dwarf("Bombur", "Tolken", "Bombur.png"));
+			this.tolkenDwarfs.add(new Dwarf("Dori", "Tolken", "Dori.png"));
+			this.tolkenDwarfs.add(new Dwarf("Dwalin", "Tolken", "Dwalin.png"));
+			this.tolkenDwarfs.add(new Dwarf("Fili", "Tolken", "Fili.png"));
+			this.tolkenDwarfs.add(new Dwarf("Gloin", "Tolken", "Gloin.png"));
+			this.tolkenDwarfs.add(new Dwarf("Kili", "Tolken", "Kili.png"));
+			this.tolkenDwarfs.add(new Dwarf("Nori", "Tolken", "Nori.png"));
+			this.tolkenDwarfs.add(new Dwarf("Oin", "Tolken", "Oin.png"));
+			this.tolkenDwarfs.add(new Dwarf("Ori", "Tolken", "Ori.png"));
+			this.tolkenDwarfs.add(new Dwarf("Thorin", "Tolken", "Thorin.png"));
+			
 			return this.tolkenDwarfs;
 		}
 }
