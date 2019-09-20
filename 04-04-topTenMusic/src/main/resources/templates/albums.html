@@ -22,7 +22,7 @@
       <a class="nav-link" href="/">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/singles">Albums</a>
+      <a class="nav-link" href="/singles">Singles</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="/album">Albums</a>
@@ -31,7 +31,7 @@
 </nav>
 <div class="jumbotron text-center">
 
-<h1>Singles</h1>
+<h1>Albums</h1>
 <p>Top</p>
 <h2 th:text="${albumschart}"></h2>
 <p>Albums</p>
@@ -51,12 +51,13 @@
 				<tr>
 					<th>Position</th>
 					<th>picture</th>
+					<th>genre</th>
 				</tr>
 			</thead>
 			<tbody>
-				<tr th:each="music: ${albums}">
-					<td th:text="${music.name}">Albums</td>
-					<td><img src="src/main/resources/static/images/hollywoodsBleeding.jpg" th:src="@{/images/} + ${music.albumImage}"/></td>
+				<tr th:each="album: ${albums}">
+					<td th:text="${album.position}">Albums</td>
+					<td><img src="src/main/resources/static/images/hollywoodsBleeding.jpg" th:src="@{/images/} + ${album.albumImage}"/></td>
 				</tr>
 			</tbody>
 		</table>

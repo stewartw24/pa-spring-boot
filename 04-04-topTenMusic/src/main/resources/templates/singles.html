@@ -50,13 +50,17 @@
 			<thead>
 				<tr>
 					<th>Position</th>
+					<th>name</th>
 					<th>picture</th>
+					<th>genre</th>
 				</tr>
 			</thead>
 			<tbody>
-				<tr th:each="music: ${singles}">
-					<td th:text="${music.name}">Singles</td>
-					<td><img src="src/main/resources/static/images/takeMeBackToLondon.jpg" th:src="@{/images/} + ${music.singleImage}"/></td>
+ 				<tr th:each="single: ${singles}">
+					<td th:text="${single.position}">Singles</td>
+					<td th:text="${single.album}">name</td>
+					<td><img src="src/main/resources/static/images/takeMeBackToLondon.jpg" th:src="@{/images/} + ${single.singleImage}"/></td>
+					<td th:text="${single.genre}">Genre</td>
 				</tr>
 			</tbody>
 		</table>

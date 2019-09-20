@@ -14,16 +14,16 @@ public class TopTenService {
 		
 		this.topTenSingles = new ArrayList<TopTen>();
 		
-		this.topTenSingles.add(new TopTen("1. Take me back to London", "Single", null, null, "takeMeBackToLondon.jpg" , null));
-		this.topTenSingles.add(new TopTen("2. Taste", "Single", null, null,"taste.jpg" , null));
-		this.topTenSingles.add(new TopTen("3. Higher Love", "Single", null, null, "higherLove.jpg", null));
-		this.topTenSingles.add(new TopTen("4. Ladbroke Grove", "Single", null, null, "ladbrokeGrove.jpg", null));
-		this.topTenSingles.add(new TopTen("5. Circles", "Single", null, null, "circles.jpg", null));
-		this.topTenSingles.add(new TopTen("6. Sorry", "Single", null, null, "sorry.jpg", null));
-		this.topTenSingles.add(new TopTen("7. 3 Nights", "Single", null, null, "3Nights.jpg", null));
-		this.topTenSingles.add(new TopTen("8. Ransom", "Single", null, null, "ransom.jpg", null));
-		this.topTenSingles.add(new TopTen("9. Strike a pose", "Single", null, null, "strikeAPose.jpg", null));
-		this.topTenSingles.add(new TopTen("10. Goodbyes", "Single",null, null, "goodbyes.jpg", null));
+		this.topTenSingles.add(new TopTen("1.", "Single", "Take me back to London", "Grime", "takeMeBackToLondon.jpg" , null));
+		this.topTenSingles.add(new TopTen("2.", "Single", "Taste", "Hip-Hop","taste.jpg" , null));
+		this.topTenSingles.add(new TopTen("3.", "Single", "Higher Love", "Pop", "higherLove.jpg", null));
+		this.topTenSingles.add(new TopTen("4.", "Single", "Ladbroke Grove", "Hip-Hop", "ladbrokeGrove.jpg", null));
+		this.topTenSingles.add(new TopTen("5.", "Single", "Circles", "Hip-Hop", "circles.jpg", null));
+		this.topTenSingles.add(new TopTen("6.", "Single", "Sorry", "Dance", "sorry.jpg", null));
+		this.topTenSingles.add(new TopTen("7.", "Single", "3 Nights", "Indie", "3Nights.jpg", null));
+		this.topTenSingles.add(new TopTen("8.", "Single", "Ransom", "Hip-Hop", "ransom.jpg", null));
+		this.topTenSingles.add(new TopTen("9.", "Single", "Strike a pose", "Hip-Hop", "strikeAPose.jpg", null));
+		this.topTenSingles.add(new TopTen("10.", "Single","Goodbyes", "Hip-Hope", "goodbyes.jpg", null));
 		
 		return this.topTenSingles;
 	}

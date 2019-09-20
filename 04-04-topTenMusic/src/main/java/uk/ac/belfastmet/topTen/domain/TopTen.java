@@ -9,33 +9,34 @@ package uk.ac.belfastmet.topTen.domain;
  */
 public class TopTen {
 	
-	private String name;
+	private String position;
 	private String single;
 	private String album;
-	private String nameImage;
+	private String genre;
 	private String singleImage;
 	private String albumImage;
+
 	
 	public TopTen() {
 		super();
 	}
 
-	public TopTen(String name, String single, String album, String nameImage, String singleImage, String albumImage) {
+	public TopTen(String position, String single, String album, String genre, String singleImage, String albumImage) {
 		super();
-		this.name = name;
+		this.position = position;
 		this.single = single;
 		this.album = album;
-		this.nameImage = nameImage;
+		this.genre = genre;
 		this.singleImage = singleImage;
 		this.albumImage = albumImage;
 	}
 
-	public String getName() {
-		return name;
+	public String getPosition() {
+		return position;
 	}
-
-	public void setName(String name) {
-		this.name = name;
+	
+	public void setPosition(String position) {
+		this.setPosition(position);
 	}
 
 	public String getSingle() {
@@ -54,14 +55,6 @@ public class TopTen {
 		this.album = album;
 	}
 
-	public String getNameImage() {
-		return nameImage;
-	}
-
-	public void setNameImage(String nameImage) {
-		this.nameImage = nameImage;
-	}
-
 	public String getSingleImage() {
 		return singleImage;
 	}
@@ -76,6 +69,14 @@ public class TopTen {
 
 	public void setAlbumImage(String albumImage) {
 		this.albumImage = albumImage;
+	}
+
+	public String getGenre() {
+		return genre;
+	}
+
+	public void setGenre(String genre) {
+		this.genre = genre;
 	}
 	
 }

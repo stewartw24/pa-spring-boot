@@ -31,8 +31,10 @@ public class TopTenController {
 		logger.info("An info message");
 		TopTenService topTenService = new TopTenService();
 		model.addAttribute("pagetitle", "Top Ten Singles!");
-		model.addAttribute("singles", topTenService.gettopTenSingles());
+		/* model.addAttribute("singles", topTenService.gettopTenSingles()); */
 		model.addAttribute("singleschart", "10");
+		/* model.addAttribute("genre", topTenService.gettopTenSingles()); */
+		model.addAttribute("singles", topTenService.gettopTenSingles());
 		
 		return "singles";
 	}
